@@ -1262,6 +1262,15 @@ footer .offer a {
   background: #333333;
 }
 
+.rotate {
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
 @media screen and (min-width: 320px) {
   nav {
     padding: 18px 15px 0;
