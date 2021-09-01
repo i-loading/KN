@@ -10,13 +10,12 @@
 </head>
 
 <body>
-  <video src="assets/img/main/bg-video.mp4" autoplay loop muted></video>
+  <video src="assets/img/main/bg-video.mp4" autoplay loop muted loading="lazy"></video>
   <header id="header">
     <div class="container">
       <nav id="menu" class="default">
         <img src="assets/img/main/logo-white.png" alt="logo" class="logo">
         <ul class="menu">
-          <li id="link_wrap-one"><a href="#about-section">Послуги</a></li>
           <li id="link_wrap-two"><a href="#reson-section">Чому ми?</a></li>
           <li id="link_wrap-three"><a href="#why_wrapper">Як ми працюємо</a></li>
           <li id="link_wrap-four"><a href="#services-section">Ціни</a></li>
@@ -78,46 +77,8 @@
         <div class="line"></div>
         <h2>супровід державних закупівель</h2>
       </div>
-      <div class="links_btn">
-        <a href="#about-section">
-          <div class="down">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="triangle">
-              <img src="assets/img/main/white_arrow.svg" alt="">
-            </div>
-          </div>
-        </a>
-        <a href="#header">
-          <img src="assets/img/main/arrow.png" alt="whatsapp" class="arrow-top">
-        </a>
-      </div>
     </div>
   </header>
-  <section class="about-section" id="about-section">
-    <div class="left-side">
-      <div class="block">
-        <h3>Які послуги надає тендерний юрист?</h3>
-        <ul>
-          <li>Реєстрація клієнта, як учасника торгів</li>
-          <li>Постійний моніторинг тендерів, що можуть бути цікаві клієнту</li>
-          <li>Аналіз попередніх торгів і цінових пропозицій конкурентів</li>
-          <li>Підготовка повного пакету документів тендерної пропозиції</li>
-          <li>Замовлення та отримання необхідних довідок (документів) в державних установах</li>
-        </ul>
-      </div>
-      <ul>
-        <li>Замовлення та перевірка банківських гарантій на відповідність вимогам тендерної документації</li>
-        <li>Підготовка пакету документів Переможця та укладання договору</li>
-        <li>Написання запитів, питань, вимог, скарг</li>
-        <li>Спільне обговорення та представлення інтересів клієнта в АМК України</li>
-      </ul>
-    </div>
-    <div class="about-image_wrap">
-      <img src="assets/img/main/about-person.png" alt="">
-    </div>
-  </section>
   <section class="reson-section">
     <div class="reason_wrapper">
       <div class="container">
@@ -157,11 +118,6 @@
             <p>Надання послуг в строки визначені договором.</p>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="image-full">
-      <div class="prozoro">
-        <h2>Pro<span>zorro</span></h2>
       </div>
     </div>
   </section>
@@ -285,7 +241,7 @@
     </div>
   </div>
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" async></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
   <script src="assets/js/script.min.js" async></script>
 </body>
 </html>

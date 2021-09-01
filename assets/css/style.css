@@ -123,6 +123,7 @@ video {
   -o-object-fit: cover;
   object-fit: cover;
   min-height: 645px;
+  height: 100vh;
 }
 
 nav {
@@ -1287,6 +1288,7 @@ footer .offer a {
 
   .top-title {
     padding-bottom: 60px;
+    padding-top: 0;
   }
 
   .top-title h1 {
@@ -1482,9 +1484,9 @@ footer .offer a {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
   }
 
   .location-section .contacts .icons a + a {
@@ -1939,7 +1941,7 @@ footer .offer a {
   .location-section .contacts {
     top: 90px;
     left: 170px;
-    padding: 45px 27px 60px 70px;
+    padding: 45px 27px 60px 40px;
     max-width: 570px;
   }
 
@@ -2059,8 +2061,26 @@ footer .offer a {
 }
 
 @media screen and (max-width: 1170px) {
+  header {
+    height: 80vh;
+  }
+
+  video {
+    height: 80%;
+  }
+
   .about-section .about-image_wrap {
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  header {
+    height: 60vh;
+  }
+
+  video {
+    height: 60%;
   }
 }
 
@@ -2083,6 +2103,14 @@ footer .offer a {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    height: 40vh;
+  }
+
+  video {
+    height: 40%;
+  }
+
   .about-section img {
     display: block;
   }
